@@ -1,0 +1,222 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/**Import special font**/
+@font-face{
+	font-family:myFont;
+	src:url(Gaegu-Regular.ttf);
+}
+
+
+body {
+	padding:0;
+	margin:0;
+	background-color: rgb(246,241,255);	
+	box-sizing: border-box;
+	font-family:myFont;
+}
+h1{
+	margin-left: 10px;
+	font-family:myFont;
+	font-size:60px;
+}
+/**CSS rules for menu bar**/
+.menu-bar{
+	position:sticky;
+	top:0;
+	background: rgb(246,250,255);
+	text-align: center;
+	font-size:20px;
+	z-index:1000;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: #b19cd8
+}
+.active, .menu-bar ul li:hover
+{
+	background: #e9e2ff;
+	border-radius: 3px;
+	
+}
+.logo{
+	width:500px;
+	height: 160px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+table img{
+	width:40%;
+}
+/**CSS rules for table background**/
+.sketching{
+	background-color:#FFE7F1;
+}
+.painting{
+	background-color:#E3DAEF;
+}
+.digital{
+	background-color:#FFE4F5;
+}
+.sketching, .painting, .digital{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+table{
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+}
+td,th{
+
+  text-align: center;
+}
+p, h1,h2, h3{
+	margin-left: 50px;
+	margin-right:50px;
+}
+
+ul{
+	margin-left:50px;
+}
+p{
+	font-size:20px;
+}
+h2{
+	font-size:50px;
+}
+.history_table{
+	border:1px solid black !important;
+}
+hr{
+	border: 3px;
+	color:black;
+}
+
+.left_text {
+	position:absolute;
+	margin-left:300px;
+	margin-right: 700px;
+	margin-top:50px;
+}
+.timeline_description{
+	float: left; 
+	width: 50%; 
+	padding: 5px;
+}
+.under_text{
+	position:absolute;
+	margin-left:50px;
+	margin-right:50px;
+	margin-top:590px;
+}
+.history_table{
+	margin-left:50px !important;
+	border:1px;
+}
+
+.img-right {
+	float: right;
+}
+img{
+	border: 1px solid black;
+}
+.logo, .history_table, .timeline, .contact_image{
+	border: 0px;
+}
+
+.supply_iframe{
+	margin-left:10px;
+	height:630px;
+	width: 450px;
+}
+.column{
+	float:left;
+	width:33.33%;
+	padding: 5px;
+}
+.row::after{
+	content:"";
+	clear:both;
+	display:table;
+}
+
+.timeline{
+	width:500px;
+}
+.mygalleryimages{
+	width:480px;
+	height:480px;
+}
+.spotify{
+	border-radius: 12px;
+	width:15%;
+	height:240px; 
+}
+.music_image{
+	width:16%;
+}
+.contact_image{
+	width:20px;
+	height:20px;
+}
+.slideshow1{
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-top: 56.25%;
+	padding-bottom: 0;
+	box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+	margin-top: 1.6em;
+	margin-bottom: 0.9em;
+	overflow: hidden;
+	border-radius: 8px;
+}
+.slideshow2{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+.backtotop{
+	font-size:40px;
+	background-color:white;
+}
+.validator{
+	width:150px;
+	height:50px;
+	border: 0px;
+}
+.profile{
+	height:100px;
+	margin-left:50px;
+}
+#list_of_arts{
+	font-size:25px;
+	color:#b19cd8;
+}
+b,h3{
+	color:#b19cd8;
+}
+#contact{
+	font-size: 25px;
+}
