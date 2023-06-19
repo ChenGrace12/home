@@ -100,12 +100,8 @@ h2{
 	font-size:50px;
 }
 /**history table border**/
-.history_table, tr, td, th{
+.history_table, tr, td{
 	border:1px solid black !important;
-}
-hr{
-	border: 3px;
-	color:black;
 }
 .left_text {
 	position:absolute;
